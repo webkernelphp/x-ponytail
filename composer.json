@@ -1,0 +1,25 @@
+{
+    "$schema": "https://getcomposer.org/schema.json",
+    "name": "webkernel/x-ponytail",
+    "description": "A skill to make an AI agent think like the laziest senior dev in the room and help in Webkernel development.",
+    "type": "webkernel-devtool",
+    "license": "MIT",
+    "version": "0.1.0",
+    "require": {
+        "php": ">=8.4"
+    },
+    "autoload": {
+        "psr-4": {}
+    },
+    "bin": [
+        "bin/x-ponytail"
+    ],
+    "scripts": {},
+    "minimum-stability": "stable",
+    "extra": {
+        "webkernel": {
+            "package_repo": "git@github.com:webkernelphp/x-ponytail.git",
+            "prefix": "x-ponytail"
+        }
+    }
+}
