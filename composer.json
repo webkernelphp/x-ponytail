@@ -11,9 +11,6 @@
     "autoload": {
         "psr-4": {}
     },
-    "bin": [
-        "bin/x-ponytail"
-    ],
     "scripts": {},
     "minimum-stability": "stable",
     "extra": {
