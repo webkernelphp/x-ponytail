@@ -4,14 +4,14 @@
     "description": "A skill to make an AI agent think like the laziest senior dev in the room and help in Webkernel development.",
     "type": "webkernel-devtool",
     "license": "MIT",
-    "version": "0.1.0",
+    "version": "0.12.0",
     "require": {
         "php": ">=8.4"
     },
     "autoload": {
-        "psr-4": {}
+        "psr-4": []
     },
-    "scripts": {},
+    "scripts": [],
     "minimum-stability": "stable",
     "extra": {
         "webkernel": {
